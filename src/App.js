@@ -2,8 +2,8 @@ import React,{Component} from 'react';
 import Sidebar from './components/Sidebar';
 import Home from './components/Home';
 import About from './components/About';
+import Skill from './components/Skill';
 import Resume from './components/Resume';
-import Portofolio from './components/Portofolio';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -19,8 +19,8 @@ class App extends Component {
                 <Sidebar />
                 <Home />
                 <About />
+                <Skill />
                 <Resume />
-                <Portofolio />
                 <Services />
                 <Contact />
             </Router>
